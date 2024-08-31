@@ -1,0 +1,28 @@
+.th {
+    background-color: yellowgreen;
+}
+
+.ninja {
+    background-color: rgb(230, 150, 188);
+}
+
+html,
+body {
+    text-align: center;
+    height: 100%;
+}
+
+.mainDiv {
+
+
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+
+    margin-left: 40%;
+
+}
+
+table {
+    width: 100%;
+}
