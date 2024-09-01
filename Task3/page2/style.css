@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.maincard {
+  height: 70%;
+  width: 70%;
+  background-color: white;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+.image-div {
+  position: absolute;
+
+  left: 10%;
+}
+
+.login-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  text-align: center;
+}
+
+.title {
+  font-size: x-large;
+}
+
+input {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 95%;
+  border: none;
+  background-color: #e5e5e5;
+}
+button {
+  padding: 10px 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #0b847a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.forgot {
+  margin-top: 20px;
+
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0b847a;
+}

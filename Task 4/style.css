@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+.header {
+padding :60px;
+text-align: center;
+font-size: 60px;
+font-weight: bold;
+background-color: chocolate;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+li {
+   display: flex;
+}
+
+li a {
+    text-decoration: none;
+     color: rgb(5, 110, 31);
+     display: block;
+     padding: 15px 30px;
+     font-weight: bold;
+}
+
+li a:hover {
+    background-color: rgb(156, 156, 54);
+}
+
+.content, footer {
+    padding-left: 20px;
+   font-weight: 600;
+       font-size: 16px;
+}
+.inf {
+    color: rgb(145, 84, 4);
+}
